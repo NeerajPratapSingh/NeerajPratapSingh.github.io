@@ -101,6 +101,10 @@
 
   .phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
   .phases h3 { color: var(--accent); }
+  .cta { display: inline-flex; align-items: center; gap: 10px; margin-top: 26px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; font-size: 1.05rem; padding: 14px 22px; border-radius: 14px; box-shadow: 0 10px 24px -12px var(--accent); }
+  .cta:hover { filter: brightness(1.08); }
+  .cta:focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 3px; }
+  .cta-note { color: var(--muted); font-size: 0.88rem; margin-top: 10px; }
   footer { color: var(--muted); font-size: 0.88rem; }
   a { color: var(--accent); }
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -118,6 +122,8 @@
       <span>Android app, working build in testing</span>
       <span>October 2026</span>
     </div>
+    <a class="cta" href="demo/">Try the live demo &rarr;</a>
+    <p class="cta-note">The real app, running in your browser with a sample squad. Sign in with any email and any 6 digits; nothing is saved. Works best on a phone or in a narrow window.</p>
   </header>
 
   <section class="col">
@@ -129,7 +135,7 @@
   <section class="wide" aria-label="Screens">
     <div class="col" style="margin-bottom:16px">
       <h2>The product today</h2>
-      <p class="note">Real screens from the current build, rendered from the app's code with demo data. Scroll sideways.</p>
+      <p class="note">Real screens from the current build, rendered from the app's code with demo data. Scroll sideways, or <a href="demo/">open the live demo</a>.</p>
     </div>
     <div class="screens">
       <div class="strip">
