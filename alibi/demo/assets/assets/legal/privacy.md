@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective 7 October 2026
+Effective 7 October 2026, last updated 22 October 2026
 
 Alibi is a gym accountability app: you and a small squad of friends keep each other consistent with verified check-ins. This policy says what Alibi collects, why, who can see it, and how to get a copy of it or delete it.
 
@@ -54,6 +54,7 @@ If you send feedback from the Profile tab, we keep what you wrote, with the app 
 
 ### Settings and referrals
 
+- Your country, so food lists and meal suggestions fit where you live.
 - Notification choices and quiet hours, with your time zone.
 - A notification address for each phone you sign in on, so alerts can reach it. It is removed when you sign out.
 - Whether your profile is public, and whether you share your plan.
