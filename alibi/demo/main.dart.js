@@ -12112,7 +12112,7 @@ q=s?"It\u2019s past your usual "+c+". I\u2019m snorting.":"One session today. I\
 p=s?"Your "+c+" slot came and went. Still time.":"The gym is open today. So are my nostrils."
 o=s?"Around "+c+" is your time. I don\u2019t do doors.":"Get in today. I don\u2019t do doors."
 s=s?"Your "+c+" charge is waiting. Go go go.":"Today is a red rag. Charge it."
-s=A.a([new A.fO(r,"Tank: I\u2019m pawing the ground here"),new A.fO(q,"Tank: excuses detected"),new A.fO(p,"Tank: nose ring\u2019s getting hot"),new A.fO(o,"Tank: don\u2019t make me come over"),new A.fO(s,"Tank: the gate is open")],t.pT)
+s=A.a([new A.fO(r,"Berry: I\u2019m pawing the ground here"),new A.fO(q,"Berry: excuses detected"),new A.fO(p,"Berry: nose ring\u2019s getting hot"),new A.fO(o,"Berry: don\u2019t make me come over"),new A.fO(s,"Berry: the gate is open")],t.pT)
 break
 case 1:s=c!=null
 r=s?"You\u2019re usually in around "+c+". I\u2019m watching.":"Still time today. Bring me some proof."
@@ -12128,7 +12128,7 @@ q=s?"And your "+c+" workout still hasn\u2019t started.":"You haven\u2019t starte
 p=s?"Your "+c+" slot went by. It waved.":"The gym is still there today. So am I."
 o=s?"Skipping "+c+". Classic. You can still go.":"It\u2019s how it starts. Go today. Surprise me."
 s=s?"It\u2019s past "+c+". The other one\u2019s next.":"Train today and I\u2019ll lower it."
-s=A.a([new A.fO(r,"Silver: hm"),new A.fO(q,"Silver: I\u2019ve finished my banana"),new A.fO(p,"Silver: not worried. Just noticing."),new A.fO(o,"Silver: I\u2019ve seen this before"),new A.fO(s,"Silver: one eyebrow raised")],t.pT)
+s=A.a([new A.fO(r,"Rampage: hm"),new A.fO(q,"Rampage: I\u2019ve finished my banana"),new A.fO(p,"Rampage: not worried. Just noticing."),new A.fO(o,"Rampage: I\u2019ve seen this before"),new A.fO(s,"Rampage: one eyebrow raised")],t.pT)
 break
 default:s=null}return s[B.h.aC(b,5)]},
 bur(a,b,c,d,e,f,g,h,i,j,k,l,m){return new A.afL(k,l,j,f,m,e,c,b,g,h,d,i,a)},
@@ -13480,7 +13480,7 @@ bnF:function bnF(){},
 bQk(a){var s
 A:{if("kettl"===a){s=B.kM
 break A}if("gummy"===a){s=B.kN
-break A}s=A.ex(B.BU,t.ph).h(0,a)
+break A}s=A.ex(B.BS,t.ph).h(0,a)
 if(s==null)s=B.is
 break A}return s},
 bQl(a){var s
@@ -38350,8 +38350,8 @@ _.z=j},
 bRX(a,b,c){var s,r,q,p,o,n=c.a
 n===$&&A.b()
 n=A.cC(A.PU(n+240),40)
-s=A.cC(A.auA(c,B.BS,B.ahf),24)
-r=A.cC(A.auA(c,B.BS,B.ahh),32)
+s=A.cC(A.auA(c,B.BT,B.ahf),24)
+r=A.cC(A.auA(c,B.BT,B.ahh),32)
 q=A.cC(c.a+15,8)
 p=A.cC(c.a+15,12)
 c.d===$&&A.b()
@@ -72082,7 +72082,7 @@ q=new A.aGY(r)
 p=new A.aH6(a8)
 o=t.p
 n=A.a([],o)
-for(m=A.cj(B.BU,0,t.ph),l=J.a9(m.a),m=m.b,k=new A.c4(l,m),j=a7.dy,i=s.a,h=a7.e,g=a7.fr,f=t.O,e=a7.b;k.m();){d={}
+for(m=A.cj(B.BS,0,t.ph),l=J.a9(m.a),m=m.b,k=new A.c4(l,m),j=a7.dy,i=s.a,h=a7.e,g=a7.fr,f=t.O,e=a7.b;k.m();){d={}
 c=k.c
 c=c>=0?new A.F(m+c,l.gF()):A.a2(A.bc())
 d.a=null
@@ -98820,7 +98820,7 @@ gfQ(){var s=this.e
 return s===$?this.e=new A.HV(this.a.c,$.al()):s},
 gqw(){var s,r,q,p=this,o=p.w
 if(o===$){s=p.a.Q
-r=A.kR(B.BT,t.G9)
+r=A.kR(B.BU,t.G9)
 q=$.al()
 p.w!==$&&A.aM()
 o=p.w=new A.xf(s,r,q,t.iw)}return o},
@@ -98996,7 +98996,7 @@ return new A.a_6(new A.tG(B.iV,q,p,t.qD),new A.xf(s,A.kR(B.C4,r),p,t.Bv),new A.S
 A.a_6.prototype={
 gqw(){var s,r,q,p=this,o=p.y
 if(o===$){s=p.a.as
-r=A.kR(B.BT,t.G9)
+r=A.kR(B.BU,t.G9)
 q=$.al()
 p.y!==$&&A.aM()
 o=p.y=new A.xf(s,r,q,t.iw)}return o},
@@ -146196,8 +146196,12 @@ B.ki=s([B.nY,B.I2,B.u2,B.o_,B.I3,B.o0,B.nZ,B.o1,B.o2,B.u1],A.ag("D<hg>"))
 B.Q4=new A.mA(0,"mostly")
 B.Q5=new A.mA(1,"sometimes")
 B.BR=s([B.Q4,B.Q5,B.wn],A.ag("D<mA>"))
+B.kM=new A.q2("Berry","The bull who charges at your excuses.",0,"bull")
+B.is=new A.q2("Hoot","The owl coach who saw you at the gym.",1,"hoot")
+B.kN=new A.q2("Rampage","The gorilla who judges you over a banana.",2,"gorilla")
+B.BS=s([B.kM,B.is,B.kN],A.ag("D<q2>"))
 B.acZ=s(["Keep going. Don\u2019t make a fuss.","Squad\u2019s watching. So am I. Chewing.","Boring works. Stay boring.","Consistency. That\u2019s the whole secret.","I\u2019ve got one tip: go.","Slow and steady. Like my chewing.","Show up. Go home. Repeat.","You\u2019re doing fine. Don\u2019t tell anyone."],t.s)
-B.BS=s([0,21,51,121,151,191,271,321,360],t.n)
+B.BT=s([0,21,51,121,151,191,271,321,360],t.n)
 B.dW=new A.n6("Chest",0,"chest")
 B.d8=new A.n6("Back",1,"back")
 B.fY=new A.n6("Shoulders",2,"shoulders")
@@ -146208,17 +146212,13 @@ B.im=new A.n6("Cardio",6,"cardio")
 B.ad1=s([B.dW,B.d8,B.fY,B.dV,B.cm,B.fX,B.im],A.ag("D<n6>"))
 B.iq=new A.wx(0,"portrait")
 B.o8=new A.wx(1,"landscape")
-B.BT=s([B.iq,B.o8],A.ag("D<wx>"))
+B.BU=s([B.iq,B.o8],A.ag("D<wx>"))
 B.ad4=s(["Morning. Gym before lunch?","Up early. Hm. Prove it.","Breakfast banana. Then you train.","New day. Same plan. Go.","You\u2019re awake. Good start. Low bar.","Morning, kid. Don\u2019t overthink it."],t.s)
 B.ad6=s([B.j4,B.eP,B.fj,B.j5,B.j6],A.ag("D<nZ>"))
 B.abm=s(["Still time today. No stress.","Evening session still counts.","Late is fine. Late beats never."],t.s)
 B.adD=s(["Gym\u2019s still open. I checked. Just kidding, I sat here.","Getting late. I\u2019ve noticed. Just so you know.","Sun\u2019s going down. So are your chances.","Still here. Still looking at you."],t.s)
 B.af4=s(["This late, still no gym? Damn, kid.","Get off your ass. It\u2019s almost over.","Late as hell. I\u2019m not even mad. Go."],t.s)
 B.ad7=s([B.abm,B.adD,B.af4],t.rj)
-B.kM=new A.q2("Tank","The bull who charges at your excuses.",0,"bull")
-B.is=new A.q2("Hoot","The owl coach who saw you at the gym.",1,"hoot")
-B.kN=new A.q2("Silver","The gorilla who judges you over a banana.",2,"gorilla")
-B.BU=s([B.kM,B.is,B.kN],A.ag("D<q2>"))
 B.ada=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.add=s(["Let\u2019s go \ud83d\udd25","Same time tomorrow?","Proof photo or it didn\u2019t happen \ud83d\ude04","Nice, keep it up","On my way to the gym now"],t.s)
 B.QW=new A.Mz(2,"outer")
@@ -147657,14 +147657,14 @@ B.auQ=new A.b2(B.cb,!1,!1,!0,!1,B.J)
 B.avc=new A.b2(B.cc,!1,!0,!0,!1,B.J)
 B.av2=new A.b2(B.cc,!1,!1,!0,!1,B.J)
 B.Hs=new A.du([B.av7,B.S,B.auE,B.S,B.Nh,B.S,B.Ne,B.S,B.auZ,B.S,B.auQ,B.S,B.avc,B.S,B.av2,B.S],t.Fp)
-B.X2=new A.z(1,1,0.8823529411764706,0.8274509803921568,B.l)
-B.WB=new A.z(1,0.9019607843137255,0.8745098039215686,1,B.l)
-B.Wr=new A.z(1,0.8823529411764706,0.8980392156862745,0.9254901960784314,B.l)
-B.Ht=new A.du([B.kM,B.X2,B.is,B.WB,B.kN,B.Wr],A.ag("du<q2,z>"))
 B.a8K=s(["Hey! Mind the horns!","Poke me again. See what happens.","SNORT.","I don\u2019t do tickles.","That\u2019s my ring. Hands off.","You poke, I charge. Deal?","Is that your warm-up?","I\u2019m not cute. I\u2019m compact.","Don\u2019t wave red at me.","Touch the gym, not me.","One more tap and I\u2019m through this screen.","Who\u2019s angry? I\u2019m angry.","I broke a fence for less.","Save that energy for leg day.","Okay, okay. One set. Go.","I can see your excuses from here.","These shorts are not a joke.","Horns up. Phone down."],t.s)
 B.aea=s(["Hey! That tickles!","Hoo touched me?","I\u2019m watching. Always.","Got proof for today?","Witness, not a toy.","Noted: you poked the witness.","Objection! Personal space.","I saw that. I see everything.","Feathers are not evidence.","Poke me again, I log it.","Hoo, hoo. Who\u2019s training?","Less tapping, more lifting.","That\u2019s going on the clipboard.","Don\u2019t make me use the whistle.","Tick. You touched me. Tick.","I can turn my head all the way round.","Drop and give me a check-in.","Coach says: phone down."],t.s)
 B.aff=s(["Hm.","Don\u2019t.","You done?","This banana won\u2019t eat itself.","I felt nothing.","Tap all you like. Still judging.","That\u2019s my banana hand.","Bold. Wrong, but bold.","I\u2019ve been poked by better.","Is this what you do instead of squats?","Nice finger strength. Now the rest.","Headband stays on. Don\u2019t ask.","Still here. Still unimpressed.","One eyebrow is all you get.","Interesting. No, it isn\u2019t.","Go lift something. Not me.","I was sitting here peacefully.","Want a banana? No. Earn it."],t.s)
 B.ak1=new A.du([B.kM,B.a8K,B.is,B.aea,B.kN,B.aff],A.ag("du<q2,K<k>>"))
+B.X2=new A.z(1,1,0.8823529411764706,0.8274509803921568,B.l)
+B.WB=new A.z(1,0.9019607843137255,0.8745098039215686,1,B.l)
+B.Wr=new A.z(1,0.8823529411764706,0.8980392156862745,0.9254901960784314,B.l)
+B.Ht=new A.du([B.kM,B.X2,B.is,B.WB,B.kN,B.Wr],A.ag("du<q2,z>"))
 B.alz={happy:0,hype:1,proud:2,worried:3,sleepy:4}
 B.kO=new A.q3(1,"hype")
 B.oa=new A.q3(2,"proud")
